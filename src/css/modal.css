@@ -1,0 +1,45 @@
+.modal_pop {
+    top: 50%;
+    background-color: white;
+    width: 500px;
+    margin: 0px auto;
+    position: relative;
+    transform: translateY(-50%);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.modalHeading {
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+    height: 40px;
+}
+
+input.post_submit {
+    width: 100%;
+    background-color: #2381fa;
+    padding: 10px 20px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.uploading {
+    background-color: red;
+    color: white;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}

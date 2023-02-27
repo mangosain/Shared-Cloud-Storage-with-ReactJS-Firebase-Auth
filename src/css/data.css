@@ -1,0 +1,74 @@
+.data {
+    flex: 1;
+    padding: 10px 0px 0px 20px;
+}
+
+.data_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgrey;
+    height: 40px;
+}
+
+.data_headerLeft{
+    display: flex;
+    align-items: center;
+}
+
+.data_headerRight svg {
+    margin: 0px 10px;
+}
+
+.data_grid {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.data_file {
+    text-align: center;
+    border: 1px solid whitesmoke;
+    margin: 10px;
+    min-width: 200px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.data_file svg {
+    font-size: 60px;
+    color: grey;
+}
+
+.data_file p {
+    border-top: 1px solid #ccc;
+    margin-top: 5px;
+    font-size: 12px;
+    background-color: whitesmoke;
+    padding: 10px 0px;
+}
+
+.detailsRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+.detailsRow p {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+.detailsRow p b {
+    display: flex;
+    align-items: center;
+}
+
+.detailsRow p svg {
+    font-size: 22px;
+    margin: 10px;color: lightgrey;
+}
